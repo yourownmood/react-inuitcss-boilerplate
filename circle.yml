@@ -12,4 +12,6 @@ dependencies:
 
 test:
   override:
-    - yarn build; yarn test
+    - yarn build; yarn test:coverage
+  post:
+    - bash <(curl -s https://codecov.io/bash)

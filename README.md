@@ -1,5 +1,6 @@
 # react-inuitcss-boilerplate
-[![CircleCI](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master.svg?style=shield)](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master)
+[![CircleCI](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master.svg?style=shield)](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master) [![codecov](https://codecov.io/gh/yourownmood/react-inuitcss-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/yourownmood/react-inuitcss-boilerplate)
+
 
 A react boilerplate setup based on [create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript) including:
 * [Routing](https://github.com/ReactTraining/react-router "react-router-dom")
