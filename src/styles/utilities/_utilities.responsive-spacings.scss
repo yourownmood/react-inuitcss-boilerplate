@@ -1,0 +1,60 @@
+// --------------------------------------------------
+// +++ UTILITIES RESPONSIVE SPACINGS +++
+// --------------------------------------------------
+
+
+// === VARIABLES ===
+// --------------------------------------------------
+
+// DIRECTIONS
+
+$inuit-responsive-spacing-directions: (
+  '-top': '-top',
+  '-right': '-right',
+  '-bottom': '-bottom',
+  '-left': '-left',
+  '-horizontal': '-left' '-right',
+  '-vertical': '-top' '-bottom'
+) !default;
+
+// PROPERTIES
+
+$inuit-responsive-spacing-properties: (
+  'margin': 'margin',
+  'padding': 'padding',
+) !default;
+
+// SIZE
+
+$inuit-responsive-spacing-sizes: (
+  null: $unit,
+  '-small': $unit-small,
+  '-large': $unit-large,
+  '-huge': $unit-huge,
+  '-none': 0
+) !default;
+
+// === IMPORT ===
+// --------------------------------------------------
+
+// INUITCSS UTILITIES RESPONSIVE SPACINGS
+
+@import "inuitcss/utilities/utilities.responsive-spacings";
+
+// === DOCS ===
+// --------------------------------------------------
+
+/*
+---
+name: Responsive-spacings
+utilities:
+  - Responsive-spacings
+---
+
+Utility classes enhancing the normal spacing classes by adding responsiveness
+to them. By default this brings us the following classes:
+
+* `.u-margin-none@mobile`
+* `.u-padding-left-large@tablet`
+
+*/

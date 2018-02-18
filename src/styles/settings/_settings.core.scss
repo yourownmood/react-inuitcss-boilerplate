@@ -1,0 +1,58 @@
+// --------------------------------------------------
+// +++ SETTINGS CORE +++
+// --------------------------------------------------
+
+
+// === VARIABLES ===
+// --------------------------------------------------
+
+// FONT-SIZE
+
+$inuit-global-font-size: 16px;
+
+// LINE-HEIGHT
+
+// Also determines spacing unit - $inuit-global-spacing-unit
+$inuit-global-line-height: 24px;
+
+// === IMPORT ===
+// --------------------------------------------------
+
+// INUITCSS SETTIGNS CORE
+
+@import "inuitcss/settings/settings.core";
+
+// === DOCS ===
+// --------------------------------------------------
+
+/*
+---
+name: Core
+settings:
+  - Core
+---
+
+inuitcss’ core and setup settings.
+
+Base typographical styles an baseline grid.
+You need to define these values in pixels:
+inuitcss will convert them to more
+appropriate units.
+
+Variables:
+
+```scss
+$inuit-global-font-size: 16px;
+$inuit-global-line-height: 24px;
+```
+
+Spacing:
+
+**Global spacing/vertical rhythm is defined by `$inuit-global-line-height`**
+* $unit-factor-tiny: 0.25 = 6px
+* $unit-factor-small: 0.5 = 12px
+* $unit: 1 = 24px
+* $unit-factor-large: 2 = 48px
+* $unit-factor-huge: 4 = 96px
+
+*/
