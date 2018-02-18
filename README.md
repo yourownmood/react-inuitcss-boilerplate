@@ -4,8 +4,10 @@
 A react boilerplate setup based on [create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript) including:
 * [Routing](https://github.com/ReactTraining/react-router "react-router-dom")
 * [CSS Preprocessing](http://inuitcss.com/ "node-sass-chokidar")
+* [SCSS unit testing](https://github.com/ryanbahniuk/sassaby "sassaby")
 * [inuit.css](http://inuitcss.com/ "inuit.css")
-* [Scss unit testing](https://github.com/ryanbahniuk/sassaby "sassaby")
+* [Stylelint](https://github.com/stylelint/stylelint)
+* [pre-commit & pre-push](https://github.com/typicode/husky)
 
 Read more about the [create-react-app-typescript](src/README.md) setup.
 

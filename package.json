@@ -13,7 +13,9 @@
     "react-dom": "^16.2.0",
     "react-router-dom": "^4.2.2",
     "react-scripts-ts": "2.13.0",
-    "sassaby": "^2.1.1"
+    "sassaby": "^2.1.1",
+    "stylelint": "^9.0.0",
+    "stylelint-order": "^0.8.0"
   },
   "scripts": {
     "precommit": "lint-staged",
@@ -25,7 +27,8 @@
     "build-js": "react-scripts-ts build",
     "build": "npm-run-all build-css build-js",
     "lint": "yarn tslint src/*/**.{js,jsx,json,tsx}",
-    "test": "react-scripts-ts test --env=jsdom",
+    "test": "CI=true react-scripts-ts test --env=jsdom",
+    "test:watch": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject"
   },
   "devDependencies": {
