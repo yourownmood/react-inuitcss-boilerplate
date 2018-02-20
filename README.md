@@ -14,10 +14,18 @@ Read more about the [create-react-app-typescript](src/README.md) setup.
 
 ## How to run this project:
 
+This react boilerplate is based on [create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript).
+All alterations and extensions are done without `ejecting` the create-react-app.
+
 ### First setup:
 
 * Install [NodeJS LTS version](https://nodejs.org/en/)
 * Install [Yarn](https://yarnpkg.com/en/)
+
+### Clone boilerplate:
+
+* Clone this repository `$ git clone git@github.com:yourownmood/react-inuitcss-boilerplate.git project_directory`.
+* Browse to your "project_directory" `$ cd project_directory`
 * Install dependencies: `$ yarn install` in this project folder.
 
 ### How to run:
