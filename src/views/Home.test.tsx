@@ -1,8 +1,8 @@
 import * as React from 'react'
 import { shallow } from 'enzyme'
 
-import App from './App'
+import Home from './Home'
 
 it('renders without crashing', () => {
-  shallow(<App />)
+  shallow(<Home />)
 })

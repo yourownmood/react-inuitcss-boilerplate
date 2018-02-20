@@ -1,11 +1,16 @@
 import * as React from 'react'
+import { Link } from 'react-router-dom'
 
-const logo = require('../assets/logo.svg')
-
-class App extends React.Component {
+class About extends React.Component {
   render() {
+    const logo = require('../assets/logo.svg')
+
     return (
-      <div className='App'>
+      <div className='About'>
+        <ul className='o-list-inline'>
+          <li className='o-list-inline__item'><Link to='/'>Home</Link></li>
+          <li className='o-list-inline__item'><Link to='/about'>About</Link></li>
+        </ul>
         <header className='App-header'>
           <img src={logo} className='App-logo' alt='logo' />
           <h1 className='App-title'>ABOUT</h1>
@@ -18,4 +23,4 @@ class App extends React.Component {
   }
 }
 
-export default App
+export default About
