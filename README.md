@@ -1,5 +1,5 @@
 # react-inuitcss-boilerplate
-[![CircleCI](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master.svg?style=shield)](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master) [![codecov](https://codecov.io/gh/yourownmood/react-inuitcss-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/yourownmood/react-inuitcss-boilerplate)
+[![CircleCI](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master.svg?style=shield)](https://circleci.com/gh/yourownmood/react-inuitcss-boilerplate/tree/master) [![codecov](https://codecov.io/gh/yourownmood/react-inuitcss-boilerplate/branch/master/graph/badge.svg)](https://codecov.io/gh/yourownmood/react-inuitcss-boilerplate) [![Dependency Status](https://david-dm.org/yourownmood/react-inuitcss-boilerplate.svg)](https://david-dm.org/yourownmood/react-inuitcss-boilerplate) [![devDependency Status](https://david-dm.org/yourownmood/react-inuitcss-boilerplate/dev-status.svg)](https://david-dm.org/yourownmood/react-inuitcss-boilerplate#info=devDependencies)
 
 
 A react boilerplate setup based on [create-react-app-typescript](https://github.com/wmonk/create-react-app-typescript) including:
