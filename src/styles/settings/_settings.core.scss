@@ -6,21 +6,35 @@
 // === VARIABLES ===
 // --------------------------------------------------
 
-// FONT-SIZE
+// BASELINE
 
-$inuit-global-font-size: 16px;
+$inuit-global-baseline: 6px !default;
 
-// LINE-HEIGHT
+// SPACING-UNIT-FACTORS
 
-// Also determines spacing unit - $inuit-global-spacing-unit
-$inuit-global-line-height: 24px;
+$inuit-global-spacing-unit-factor-tiny:   1 !default;   // 6px
+$inuit-global-spacing-unit-factor-small:  2 !default;   // 12px
+$inuit-global-spacing-unit-factor:        4 !default;   // 24px
+$inuit-global-spacing-unit-factor-large:  8 !default;   // 48px
+$inuit-global-spacing-unit-factor-huge:   16 !default;  // 96px
 
 // === IMPORT ===
 // --------------------------------------------------
 
 // INUITCSS SETTIGNS CORE
 
-@import "inuitcss/settings/settings.core";
+@import "node_modules/inuitcss/settings/settings.core";
+
+// === EXTEND ===
+// --------------------------------------------------
+
+// FONT-SIZE
+
+$inuit-global-font-size: 16px !default;
+
+// LINE-HEIGHT
+
+$inuit-global-line-height: $inuit-global-spacing-unit !default;
 
 // === DOCS ===
 // --------------------------------------------------
@@ -45,14 +59,5 @@ Variables:
 $inuit-global-font-size: 16px;
 $inuit-global-line-height: 24px;
 ```
-
-Spacing:
-
-**Global spacing/vertical rhythm is defined by `$inuit-global-line-height`**
-* $unit-factor-tiny: 0.25 = 6px
-* $unit-factor-small: 0.5 = 12px
-* $unit: 1 = 24px
-* $unit-factor-large: 2 = 48px
-* $unit-factor-huge: 4 = 96px
 
 */

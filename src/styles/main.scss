@@ -7,7 +7,6 @@
  * SETTINGS
  */
 @import "settings/settings.breakpoints";
-@import "settings/settings.colors";
 @import "settings/react-inuitcss-boilerplate.settings.config";
 @import "settings/settings.core"; // (requires, inuitcss)
 @import "settings/react-inuitcss-boilerplate.settings.global";
@@ -44,6 +43,7 @@
  */
 @import "objects/objects.layout"; // (requires, inuitcss)
 @import "objects/objects.list-inline"; // (requires, inuitcss)
+@import "objects/objects.wrapper"; // (requires, inuitcss)
 
 
 /**
